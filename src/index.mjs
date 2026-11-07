@@ -55,6 +55,7 @@ function accentStyle(accent) {
  * @param {Array}  [options.head]         Extra head entries.
  * @param {Array}  [options.customCss]    Extra CSS paths.
  * @param {Array}  [options.social]       Extra social links.
+ * @param {boolean}[options.labo]         Include the LocoLabo social link. Default true.
  * @param {boolean}[options.related]      Append the generated Related group. Default true.
  */
 export function loco({
@@ -70,13 +71,14 @@ export function loco({
   head = [],
   customCss = [],
   social = [],
+  labo = true,
   related = true,
 }) {
   const style = accentStyle(accent);
 
   const socialLinks = [
     ...(home ? [{ icon: 'external', label: 'Home', href: home }] : []),
-    { icon: 'external', label: 'LocoLabo', href: LABO },
+    ...(labo ? [{ icon: 'external', label: 'LocoLabo', href: LABO }] : []),
     ...(github
       ? [{ icon: 'github', label: 'GitHub', href: `https://github.com/michael-borck/${github}` }]
       : []),
