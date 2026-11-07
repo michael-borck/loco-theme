@@ -1,0 +1,120 @@
+[
+  {
+    "id": "loco-llm",
+    "name": "LocoLLM",
+    "url": "https://locollm.org",
+    "repo": "https://github.com/michael-borck/loco-llm",
+    "tagline": "Task-specific adapters and a router for small local models.",
+    "category": "Build",
+    "status": "Active",
+    "icon": "puzzle"
+  },
+  {
+    "id": "capstone",
+    "name": "Capstone",
+    "url": "https://locolabo.org/capstone/",
+    "tagline": "Student teams building domain-specialist adapters for LocoLLM.",
+    "category": "Build",
+    "status": "In progress",
+    "icon": "pencil",
+    "repo": "https://github.com/michael-borck/locolabo-capstone"
+  },
+  {
+    "id": "loco-ensayo",
+    "name": "LocoEnsayo",
+    "url": "https://locoensayo.org",
+    "tagline": "AI-powered education simulations and design research.",
+    "category": "Build",
+    "status": "In progress",
+    "icon": "open-book"
+  },
+  {
+    "id": "loco-banco",
+    "name": "LocoBanco",
+    "url": "https://locobanco.org",
+    "repo": "https://github.com/michael-borck/loco-banco",
+    "tagline": "Which model is best for your VRAM tier, measured on real cards.",
+    "category": "Measure",
+    "status": "Active",
+    "icon": "list-format"
+  },
+  {
+    "id": "loco-bench-picker",
+    "name": "LocoBench Picker",
+    "url": "https://picker.locobanco.org",
+    "tagline": "Plot GPUs by cost, VRAM, bandwidth, power, and benchmark.",
+    "category": "Measure",
+    "status": "Prototype",
+    "icon": "star"
+  },
+  {
+    "id": "loco-fosil",
+    "name": "LocoFósil",
+    "url": "https://locofosil.org",
+    "repo": "https://github.com/michael-borck/loco-fosil",
+    "tagline": "Second-life GPUs, measured in capability, watts, and dollars.",
+    "category": "Measure",
+    "status": "Active",
+    "icon": "laptop"
+  },
+  {
+    "id": "loco-musa",
+    "name": "LocoMusa",
+    "url": "https://locomusa.org",
+    "repo": "https://github.com/michael-borck/loco-musa",
+    "tagline": "Thinking-partner quality for local models, judged pairwise.",
+    "category": "Measure",
+    "status": "Active",
+    "icon": "comment"
+  },
+  {
+    "id": "loco-convoy",
+    "name": "LocoConvoy",
+    "url": "https://lococonvoy.org",
+    "repo": "https://github.com/michael-borck/loco-convoy",
+    "tagline": "Multi-GPU inference on consumer PCIe hardware.",
+    "category": "Measure",
+    "status": "Active",
+    "icon": "random"
+  },
+  {
+    "id": "loco-agente",
+    "name": "LocoAgente",
+    "url": "https://locoagente.org",
+    "repo": "https://github.com/michael-borck/loco-agente",
+    "tagline": "Can small models think in loops? Agent scaffolding research.",
+    "category": "Run",
+    "status": "Active",
+    "icon": "rocket"
+  },
+  {
+    "id": "loco-puente",
+    "name": "LocoPuente",
+    "url": "https://locopuente.org",
+    "repo": "https://github.com/michael-borck/loco-puente",
+    "tagline": "A local-first AI platform on your own hardware.",
+    "category": "Run",
+    "status": "In progress",
+    "icon": "setting"
+  },
+  {
+    "id": "loco-base",
+    "name": "LocoBase",
+    "url": "https://locolabo.org/machine-setup/",
+    "tagline": "The Ubuntu setup kit that provisions every lab machine.",
+    "category": "Run",
+    "status": "Active",
+    "icon": "approve-check",
+    "repo": "https://github.com/michael-borck/loco-base"
+  },
+  {
+    "id": "loco-notas",
+    "name": "LocoNotas",
+    "url": "https://loconotas.org",
+    "repo": "https://github.com/michael-borck/loco-notas",
+    "tagline": "Field notes from the floor: experiments, reading, and failures.",
+    "category": "Notes",
+    "status": "Active",
+    "icon": "document"
+  }
+]
