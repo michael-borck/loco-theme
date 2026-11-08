@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap');
 
-/* Shared LocoLabo design tokens. Accent colours are injected per site. */
+/* Shared LocoLabo design tokens: a warm night palette to match the pixel art.
+   Body text (gray-2) is about 11:1 on the background; muted text (gray-3) about
+   5.5:1, so both pass WCAG AA. Accent colours are injected per site. */
 :root {
-  --sl-color-white: #e8e6e3;
-  --sl-color-gray-1: #9a9a9e;
-  --sl-color-gray-2: #5e5e63;
-  --sl-color-gray-3: #2a2a30;
-  --sl-color-gray-4: #1e1e23;
-  --sl-color-gray-5: #16161a;
-  --sl-color-gray-6: #111114;
-  --sl-color-black: #0a0a0b;
+  --sl-color-white: #f4f0e8;
+  --sl-color-gray-1: #e2ddd3;
+  --sl-color-gray-2: #c9c4bb;
+  --sl-color-gray-3: #8f8a82;
+  --sl-color-gray-4: #57545a;
+  --sl-color-gray-5: #34333b;
+  --sl-color-gray-6: #1d1c24;
+  --sl-color-black: #111016;
 
   --sl-font: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   --sl-font-mono: 'JetBrains Mono', ui-monospace, monospace;

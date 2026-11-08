@@ -1,0 +1,14 @@
+---
+/**
+ * Dark-only ThemeProvider for LocoLabo sites. The pixel art is a night palette,
+ * so the sites commit to one dark theme. Keeps Starlight's provider API so any
+ * code calling `StarlightThemeProvider.updatePickers()` still works.
+ * Sites that want light/dark back pass `darkOnly: false` to `loco()`.
+ */
+---
+
+{/* Inlined to avoid a flash of the wrong theme. */}
+<script is:inline>
+  document.documentElement.dataset.theme = 'dark';
+  window.StarlightThemeProvider = { updatePickers() {} };
+</script>
