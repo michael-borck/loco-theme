@@ -48,6 +48,7 @@ status. It drives the hub index and every site's Related navigation.
 | `.` | `loco()` and `relatedItems()` |
 | `./custom.css` | Shared design tokens and base overrides |
 | `./projects.json` | Canonical project manifest |
+| `./gpus.json` | Canonical lab-wide GPU registry |
 
 ## Licence
 

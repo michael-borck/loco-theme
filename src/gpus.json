@@ -1,0 +1,772 @@
+{
+  "updated": "2026-11-08",
+  "note": "Canonical lab-wide GPU registry. Counts are cards, not GPU devices. The GTX 960 is recorded in both LocoBanco (Tortuga) and LocoFósil (relic shelf); confirm whether it is one card or two.",
+  "cards": [
+    {
+      "group": "Colmena",
+      "card": "GTX 1060 6 GB",
+      "count": 3,
+      "vram_gb": 6,
+      "bandwidth_gb_s": 192,
+      "architecture": "Pascal",
+      "cc": 6.1,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "6 GB floor; bridges into pre-RTX coverage",
+      "source": "https://locobanco.org/gpu-inventory/"
+    },
+    {
+      "group": "Colmena",
+      "card": "RTX 2060 Super",
+      "count": 3,
+      "vram_gb": 8,
+      "bandwidth_gb_s": 448,
+      "architecture": "Turing",
+      "cc": 7.5,
+      "tensor_cores": true,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "8 GB Turing floor; three cards for result-consistency validation",
+      "source": "https://locobanco.org/gpu-inventory/"
+    },
+    {
+      "group": "Colmena",
+      "card": "RTX 4060 Ti 16 GB",
+      "count": 1,
+      "vram_gb": 16,
+      "bandwidth_gb_s": 288,
+      "architecture": "Ada",
+      "cc": 8.9,
+      "tensor_cores": true,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "16 GB consumer floor; documents the memory-bus penalty",
+      "source": "https://locobanco.org/gpu-inventory/"
+    },
+    {
+      "group": "Colmena",
+      "card": "RTX 5050",
+      "count": 1,
+      "vram_gb": 8,
+      "bandwidth_gb_s": 320,
+      "architecture": "Blackwell",
+      "cc": null,
+      "tensor_cores": true,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "Blackwell 8 GB floor",
+      "source": "https://locobanco.org/gpu-inventory/"
+    },
+    {
+      "group": "Tortuga",
+      "card": "GTX 950",
+      "count": 1,
+      "vram_gb": 2,
+      "bandwidth_gb_s": 105,
+      "architecture": "Maxwell",
+      "cc": 5.2,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "2 GB floor; TinyLlama only",
+      "source": "https://locobanco.org/gpu-inventory/"
+    },
+    {
+      "group": "Tortuga",
+      "card": "GTX 980 Ti",
+      "count": 1,
+      "vram_gb": 6,
+      "bandwidth_gb_s": 336,
+      "architecture": "Maxwell",
+      "cc": 5.2,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "6 GB Maxwell floor",
+      "source": "https://locobanco.org/gpu-inventory/"
+    },
+    {
+      "group": "Tortuga",
+      "card": "GTX Titan X",
+      "count": 1,
+      "vram_gb": 12,
+      "bandwidth_gb_s": 336,
+      "architecture": "Maxwell",
+      "cc": 5.2,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "12 GB Maxwell floor",
+      "source": "https://locobanco.org/gpu-inventory/"
+    },
+    {
+      "group": "Tortuga",
+      "card": "GTX 750 Ti",
+      "count": 1,
+      "vram_gb": 2,
+      "bandwidth_gb_s": 86,
+      "architecture": "Maxwell",
+      "cc": 5.0,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "2 GB Maxwell baseline",
+      "source": "https://locobanco.org/gpu-inventory/"
+    },
+    {
+      "group": "Tortuga",
+      "card": "GTX 1050 Ti",
+      "count": 1,
+      "vram_gb": 4,
+      "bandwidth_gb_s": 112,
+      "architecture": "Pascal",
+      "cc": 6.1,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "4 GB Pascal floor",
+      "source": "https://locobanco.org/gpu-inventory/"
+    },
+    {
+      "group": "Tortuga",
+      "card": "GTX 1060 3 GB",
+      "count": 1,
+      "vram_gb": 3,
+      "bandwidth_gb_s": 192,
+      "architecture": "Pascal",
+      "cc": 6.1,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "3 GB Pascal floor",
+      "source": "https://locobanco.org/gpu-inventory/"
+    },
+    {
+      "group": "Tortuga",
+      "card": "GTX 1060 6 GB",
+      "count": 1,
+      "vram_gb": 6,
+      "bandwidth_gb_s": 192,
+      "architecture": "Pascal",
+      "cc": 6.1,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "Additional 6 GB Pascal card",
+      "source": "https://locobanco.org/gpu-inventory/"
+    },
+    {
+      "group": "Hidra",
+      "card": "Tesla V100 16 GB",
+      "count": 1,
+      "vram_gb": 16,
+      "bandwidth_gb_s": 900,
+      "architecture": "Volta",
+      "cc": 7.0,
+      "tensor_cores": true,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "16 GB server tier",
+      "source": "https://locobanco.org/gpu-inventory/",
+      "subgroup": "server"
+    },
+    {
+      "group": "Hidra",
+      "card": "Tesla P100 16 GB",
+      "count": 1,
+      "vram_gb": 16,
+      "bandwidth_gb_s": 732,
+      "architecture": "Pascal",
+      "cc": 6.0,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "16 GB server tier; HBM2",
+      "source": "https://locobanco.org/gpu-inventory/",
+      "subgroup": "server"
+    },
+    {
+      "group": "Hidra",
+      "card": "Tesla M40 24 GB",
+      "count": 1,
+      "vram_gb": 24,
+      "bandwidth_gb_s": 288,
+      "architecture": "Maxwell",
+      "cc": 5.2,
+      "tensor_cores": false,
+      "status": "incoming",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "24 GB server floor; Ollama only",
+      "source": "https://locobanco.org/gpu-inventory/",
+      "subgroup": "server"
+    },
+    {
+      "group": "Hidra",
+      "card": "Tesla P40 24 GB",
+      "count": 1,
+      "vram_gb": 24,
+      "bandwidth_gb_s": 346,
+      "architecture": "Pascal",
+      "cc": 6.1,
+      "tensor_cores": false,
+      "status": "incoming",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "24 GB server tier; full modern stack",
+      "source": "https://locobanco.org/gpu-inventory/",
+      "subgroup": "server"
+    },
+    {
+      "group": "Hidra",
+      "card": "Tesla M4 8 GB",
+      "count": 1,
+      "vram_gb": 8,
+      "bandwidth_gb_s": 88,
+      "architecture": "Maxwell",
+      "cc": 5.2,
+      "tensor_cores": false,
+      "status": "incoming",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "8 GB server floor; Ollama only",
+      "source": "https://locobanco.org/gpu-inventory/",
+      "subgroup": "server"
+    },
+    {
+      "group": "Hidra",
+      "card": "Tesla P4 8 GB",
+      "count": 1,
+      "vram_gb": 8,
+      "bandwidth_gb_s": 192,
+      "architecture": "Pascal",
+      "cc": 6.1,
+      "tensor_cores": false,
+      "status": "incoming",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "8 GB server tier; full modern stack",
+      "source": "https://locobanco.org/gpu-inventory/",
+      "subgroup": "server"
+    },
+    {
+      "group": "Hidra",
+      "card": "GTX 1070",
+      "count": 1,
+      "vram_gb": 8,
+      "bandwidth_gb_s": 256,
+      "architecture": "Pascal",
+      "cc": 6.1,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "8 GB Pascal bandwidth comparison",
+      "source": "https://locobanco.org/gpu-inventory/",
+      "subgroup": "consumer"
+    },
+    {
+      "group": "Hidra",
+      "card": "RTX 3050",
+      "count": 1,
+      "vram_gb": 8,
+      "bandwidth_gb_s": 224,
+      "architecture": "Ampere",
+      "cc": 8.6,
+      "tensor_cores": true,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "8 GB Ampere; lowest-bandwidth Tensor Core card",
+      "source": "https://locobanco.org/gpu-inventory/",
+      "subgroup": "consumer"
+    },
+    {
+      "group": "Hidra",
+      "card": "RTX 3060 AORUS Elite",
+      "count": 1,
+      "vram_gb": 12,
+      "bandwidth_gb_s": 360,
+      "architecture": "Ampere",
+      "cc": 8.6,
+      "tensor_cores": true,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "12 GB tier floor",
+      "source": "https://locobanco.org/gpu-inventory/",
+      "subgroup": "consumer"
+    },
+    {
+      "group": "Puente",
+      "card": "RTX 3090",
+      "count": 1,
+      "vram_gb": 24,
+      "bandwidth_gb_s": 936,
+      "architecture": "Ampere",
+      "cc": 8.6,
+      "tensor_cores": true,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco",
+        "LocoPuente"
+      ],
+      "role": "LocoPuente PoC and LocoEnsayo chatbots",
+      "source": "https://locobanco.org/gpu-inventory/"
+    },
+    {
+      "group": "Búho",
+      "card": "Tesla V100 32 GB",
+      "count": 1,
+      "vram_gb": 32,
+      "bandwidth_gb_s": 900,
+      "architecture": "Volta",
+      "cc": 7.0,
+      "tensor_cores": true,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco",
+        "LocoLLM"
+      ],
+      "role": "Adapter training and 32 GB inference",
+      "source": "https://locobanco.org/gpu-inventory/"
+    },
+    {
+      "group": "Hormiga",
+      "card": "GTX 1050 Ti LP",
+      "count": 1,
+      "vram_gb": 4,
+      "bandwidth_gb_s": 112,
+      "architecture": "Pascal",
+      "cc": 6.1,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "Low-profile SFF floor node",
+      "source": "https://locobanco.org/gpu-inventory/"
+    },
+    {
+      "group": "Unassigned",
+      "card": "GTX 1650 OC LP",
+      "count": 1,
+      "vram_gb": 4,
+      "bandwidth_gb_s": 128,
+      "architecture": "Turing",
+      "cc": 7.5,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "Low-profile; no current assignment",
+      "source": "https://locobanco.org/gpu-inventory/"
+    },
+    {
+      "group": "Unassigned",
+      "card": "RTX 2060 Super",
+      "count": 2,
+      "vram_gb": 8,
+      "bandwidth_gb_s": 448,
+      "architecture": "Turing",
+      "cc": 7.5,
+      "tensor_cores": true,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "Awaiting assignment",
+      "source": "https://locobanco.org/gpu-inventory/"
+    },
+    {
+      "group": "Unassigned",
+      "card": "RTX 5070 Ti",
+      "count": 1,
+      "vram_gb": 16,
+      "bandwidth_gb_s": 896,
+      "architecture": "Blackwell",
+      "cc": null,
+      "tensor_cores": true,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "Awaiting assignment",
+      "source": "https://locobanco.org/gpu-inventory/"
+    },
+    {
+      "group": "Relic shelf",
+      "card": "GeForce GTX 770",
+      "count": 1,
+      "vram_gb": 2,
+      "bandwidth_gb_s": 224,
+      "architecture": "Kepler",
+      "cc": 3.0,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoFósil"
+      ],
+      "role": "Kepler 3.0 experiment",
+      "source": "https://locofosil.org/hardware/",
+      "notes": "2 or 4 GB variant; confirm",
+      "max_cuda": "10.2",
+      "last_driver": "470",
+      "memory_label": "2 or 4 GB"
+    },
+    {
+      "group": "Relic shelf",
+      "card": "Tesla K10",
+      "count": 2,
+      "vram_gb": 4,
+      "bandwidth_gb_s": 160,
+      "architecture": "Kepler",
+      "cc": 3.0,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 2,
+      "projects": [
+        "LocoFósil"
+      ],
+      "role": "Dual-GPU Kepler experiment",
+      "source": "https://locofosil.org/hardware/",
+      "notes": "Per GPU; two cards, four devices",
+      "max_cuda": "10.2",
+      "last_driver": "470",
+      "memory_label": "2 x 4 GB"
+    },
+    {
+      "group": "Relic shelf",
+      "card": "Quadro K5200",
+      "count": 1,
+      "vram_gb": 8,
+      "bandwidth_gb_s": 192,
+      "architecture": "Kepler",
+      "cc": 3.0,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoFósil"
+      ],
+      "role": "27B on a Kepler card",
+      "source": "https://locofosil.org/hardware/",
+      "max_cuda": "10.2",
+      "last_driver": "470"
+    },
+    {
+      "group": "Relic shelf",
+      "card": "Quadro K6000",
+      "count": 1,
+      "vram_gb": 12,
+      "bandwidth_gb_s": 288,
+      "architecture": "Kepler",
+      "cc": 3.0,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoFósil"
+      ],
+      "role": "27B capacity and bandwidth",
+      "source": "https://locofosil.org/hardware/",
+      "max_cuda": "10.2",
+      "last_driver": "470"
+    },
+    {
+      "group": "Relic shelf",
+      "card": "Quadro K4200",
+      "count": 1,
+      "vram_gb": 4,
+      "bandwidth_gb_s": 173,
+      "architecture": "Kepler",
+      "cc": 3.0,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoFósil"
+      ],
+      "role": "27B on a Kepler card",
+      "source": "https://locofosil.org/hardware/",
+      "max_cuda": "10.2",
+      "last_driver": "470"
+    },
+    {
+      "group": "Relic shelf",
+      "card": "Quadro K420",
+      "count": 1,
+      "vram_gb": 2,
+      "bandwidth_gb_s": 29,
+      "architecture": "Kepler",
+      "cc": 3.0,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoFósil"
+      ],
+      "role": "Low-power 2B, limited by DDR3",
+      "source": "https://locofosil.org/hardware/",
+      "max_cuda": "10.2",
+      "last_driver": "470"
+    },
+    {
+      "group": "Relic shelf",
+      "card": "GeForce GT 710",
+      "count": 1,
+      "vram_gb": 2,
+      "bandwidth_gb_s": 14.4,
+      "architecture": "Kepler",
+      "cc": 3.5,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoFósil"
+      ],
+      "role": "Lowest-power 2B",
+      "source": "https://locofosil.org/hardware/",
+      "max_cuda": "11.4 practical",
+      "last_driver": "470"
+    },
+    {
+      "group": "Relic shelf",
+      "card": "Tesla K80",
+      "count": 1,
+      "vram_gb": 12,
+      "bandwidth_gb_s": 240,
+      "architecture": "Kepler",
+      "cc": 3.7,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 2,
+      "projects": [
+        "LocoFósil"
+      ],
+      "role": "Dual-GPU experiment; cooling challenge",
+      "source": "https://locofosil.org/hardware/",
+      "notes": "Per GPU; one card, two devices",
+      "max_cuda": "11.4 practical",
+      "last_driver": "470",
+      "memory_label": "2 x 12 GB"
+    },
+    {
+      "group": "Relic shelf",
+      "card": "Quadro K620",
+      "count": 2,
+      "vram_gb": 2,
+      "bandwidth_gb_s": 28.8,
+      "architecture": "Maxwell",
+      "cc": 5.0,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoFósil"
+      ],
+      "role": "Low-power 2B, limited by DDR3",
+      "source": "https://locofosil.org/hardware/",
+      "max_cuda": "12.9",
+      "last_driver": "580"
+    },
+    {
+      "group": "Relic shelf",
+      "card": "Quadro K1200",
+      "count": 2,
+      "vram_gb": 4,
+      "bandwidth_gb_s": 80,
+      "architecture": "Maxwell",
+      "cc": 5.0,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoFósil"
+      ],
+      "role": "2B and 9B efficiency; 27B in pair",
+      "source": "https://locofosil.org/hardware/",
+      "max_cuda": "12.9",
+      "last_driver": "580"
+    },
+    {
+      "group": "Relic shelf",
+      "card": "GeForce GTX 960",
+      "count": 1,
+      "vram_gb": 4,
+      "bandwidth_gb_s": 112,
+      "architecture": "Maxwell",
+      "cc": 5.2,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco",
+        "LocoFósil"
+      ],
+      "role": "4 GB Maxwell floor",
+      "source": "https://locofosil.org/hardware/",
+      "notes": "Recorded under Tortuga and the relic shelf; counted once",
+      "banco_machine": "Tortuga",
+      "max_cuda": "12.9",
+      "last_driver": "580"
+    },
+    {
+      "group": "Relic shelf",
+      "card": "Quadro M4000",
+      "count": 1,
+      "vram_gb": 8,
+      "bandwidth_gb_s": 192,
+      "architecture": "Maxwell",
+      "cc": 5.2,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoFósil"
+      ],
+      "role": "27B on a Maxwell card",
+      "source": "https://locofosil.org/hardware/",
+      "max_cuda": "12.9",
+      "last_driver": "580"
+    },
+    {
+      "group": "Relic shelf",
+      "card": "Quadro P600",
+      "count": 1,
+      "vram_gb": 2,
+      "bandwidth_gb_s": 40,
+      "architecture": "Pascal",
+      "cc": 6.1,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoFósil"
+      ],
+      "role": "Low-power 2B",
+      "source": "https://locofosil.org/hardware/",
+      "max_cuda": "12.9",
+      "last_driver": "580"
+    },
+    {
+      "group": "Relic shelf",
+      "card": "Quadro P1000",
+      "count": 1,
+      "vram_gb": 4,
+      "bandwidth_gb_s": 82,
+      "architecture": "Pascal",
+      "cc": 6.1,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoFósil"
+      ],
+      "role": "2B and 9B",
+      "source": "https://locofosil.org/hardware/",
+      "max_cuda": "12.9",
+      "last_driver": "580"
+    },
+    {
+      "group": "Relic shelf",
+      "card": "Quadro P2000",
+      "count": 1,
+      "vram_gb": 5,
+      "bandwidth_gb_s": 140,
+      "architecture": "Pascal",
+      "cc": 6.1,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoFósil"
+      ],
+      "role": "9B with headroom",
+      "source": "https://locofosil.org/hardware/",
+      "max_cuda": "12.9",
+      "last_driver": "580"
+    },
+    {
+      "group": "Relic shelf",
+      "card": "Quadro P4000",
+      "count": 1,
+      "vram_gb": 8,
+      "bandwidth_gb_s": 243,
+      "architecture": "Pascal",
+      "cc": 6.1,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoFósil"
+      ],
+      "role": "27B efficiency candidate",
+      "source": "https://locofosil.org/hardware/",
+      "max_cuda": "12.9",
+      "last_driver": "580"
+    }
+  ]
+}
