@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-08",
-  "note": "Canonical lab-wide GPU registry. Counts are cards, not GPU devices. The GTX 960 is recorded in both LocoBanco (Tortuga) and LocoFósil (relic shelf); confirm whether it is one card or two.",
+  "note": "Canonical lab-wide GPU registry. Counts are cards, not GPU devices. The four Tesla server cards (M4, P4, M40, P40) have arrived and await installation. The GTX 960 is recorded in both LocoBanco (Tortuga) and LocoFósil (relic shelf); confirm whether it is one card or two.",
   "cards": [
     {
       "group": "Colmena",
@@ -226,7 +226,7 @@
       "subgroup": "server"
     },
     {
-      "group": "Hidra",
+      "group": "Unassigned",
       "card": "Tesla M40 24 GB",
       "count": 1,
       "vram_gb": 24,
@@ -234,17 +234,17 @@
       "architecture": "Maxwell",
       "cc": 5.2,
       "tensor_cores": false,
-      "status": "incoming",
+      "status": "installed",
       "device_count": 1,
       "projects": [
         "LocoBanco"
       ],
       "role": "24 GB server floor; Ollama only",
       "source": "https://locobanco.org/gpu-inventory/",
-      "subgroup": "server"
+      "notes": "Arrived; awaiting installation"
     },
     {
-      "group": "Hidra",
+      "group": "Unassigned",
       "card": "Tesla P40 24 GB",
       "count": 1,
       "vram_gb": 24,
@@ -252,17 +252,17 @@
       "architecture": "Pascal",
       "cc": 6.1,
       "tensor_cores": false,
-      "status": "incoming",
+      "status": "installed",
       "device_count": 1,
       "projects": [
         "LocoBanco"
       ],
       "role": "24 GB server tier; full modern stack",
       "source": "https://locobanco.org/gpu-inventory/",
-      "subgroup": "server"
+      "notes": "Arrived; awaiting installation"
     },
     {
-      "group": "Hidra",
+      "group": "Unassigned",
       "card": "Tesla M4 8 GB",
       "count": 1,
       "vram_gb": 8,
@@ -270,17 +270,17 @@
       "architecture": "Maxwell",
       "cc": 5.2,
       "tensor_cores": false,
-      "status": "incoming",
+      "status": "installed",
       "device_count": 1,
       "projects": [
         "LocoBanco"
       ],
       "role": "8 GB server floor; Ollama only",
       "source": "https://locobanco.org/gpu-inventory/",
-      "subgroup": "server"
+      "notes": "Arrived; awaiting installation"
     },
     {
-      "group": "Hidra",
+      "group": "Unassigned",
       "card": "Tesla P4 8 GB",
       "count": 1,
       "vram_gb": 8,
@@ -288,14 +288,14 @@
       "architecture": "Pascal",
       "cc": 6.1,
       "tensor_cores": false,
-      "status": "incoming",
+      "status": "installed",
       "device_count": 1,
       "projects": [
         "LocoBanco"
       ],
       "role": "8 GB server tier; full modern stack",
       "source": "https://locobanco.org/gpu-inventory/",
-      "subgroup": "server"
+      "notes": "Arrived; awaiting installation"
     },
     {
       "group": "Hidra",
