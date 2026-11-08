@@ -64,7 +64,7 @@ export function loco({
   title,
   description,
   home,
-  favicon = '/favicon.svg',
+  favicon = '/favicon.png',
   logo,
   github,
   accent,
