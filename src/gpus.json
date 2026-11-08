@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-08",
-  "note": "Canonical lab-wide GPU registry. Counts are cards, not GPU devices. The four Tesla server cards (M4, P4, M40, P40) have arrived and await installation. The GTX 960 is recorded in both LocoBanco (Tortuga) and LocoFósil (relic shelf); confirm whether it is one card or two.",
+  "note": "Canonical lab-wide GPU registry. Counts are cards, not GPU devices. The four Tesla server cards (M4, P4, M40, P40) have arrived and await installation. There are two RTX 5050 cards: one in Colmena, one unassigned. The GTX 960 is recorded in both LocoBanco (Tortuga) and LocoFósil (relic shelf); confirm whether it is one card or two.",
   "cards": [
     {
       "group": "Colmena",
@@ -767,6 +767,24 @@
       "source": "https://locofosil.org/hardware/",
       "max_cuda": "12.9",
       "last_driver": "580"
+    },
+    {
+      "group": "Unassigned",
+      "card": "RTX 5050",
+      "count": 1,
+      "vram_gb": 8,
+      "bandwidth_gb_s": 320,
+      "architecture": "Blackwell",
+      "cc": null,
+      "tensor_cores": true,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoBanco"
+      ],
+      "role": "Awaiting assignment",
+      "source": "https://locobanco.org/gpu-inventory/",
+      "notes": "Second card; the other RTX 5050 is in Colmena"
     }
   ]
 }

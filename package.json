@@ -1,6 +1,6 @@
 {
   "name": "@locolabo/theme",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Shared Starlight options, design tokens, and project navigation for LocoLabo sites.",
   "type": "module",
   "license": "MIT",
