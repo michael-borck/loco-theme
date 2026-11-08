@@ -57,6 +57,7 @@ function accentStyle(accent) {
  * @param {Array}  [options.social]       Extra social links.
  * @param {boolean}[options.labo]         Include the LocoLabo social link. Default true.
  * @param {boolean}[options.related]      Append the generated Related group. Default true.
+ * @param {object} [options.components]   Extra Starlight component overrides.
  */
 export function loco({
   project,
@@ -73,6 +74,7 @@ export function loco({
   social = [],
   labo = true,
   related = true,
+  components = {},
 }) {
   const style = accentStyle(accent);
 
@@ -93,6 +95,7 @@ export function loco({
     ...(logo ? { logo } : {}),
     social: socialLinks,
     customCss: ['@locolabo/theme/custom.css', ...customCss],
+    components: { Footer: '@locolabo/theme/Footer.astro', ...components },
     head: [...(style ? [{ tag: 'style', content: style }] : []), ...head],
     sidebar: [
       ...sidebar,

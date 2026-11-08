@@ -1,6 +1,6 @@
 {
   "name": "@locolabo/theme",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Shared Starlight options, design tokens, and project navigation for LocoLabo sites.",
   "type": "module",
   "license": "MIT",
@@ -8,7 +8,8 @@
     ".": "./src/index.mjs",
     "./custom.css": "./src/custom.css",
     "./projects.json": "./src/projects.json",
-    "./gpus.json": "./src/gpus.json"
+    "./gpus.json": "./src/gpus.json",
+    "./Footer.astro": "./src/Footer.astro"
   },
   "files": [
     "src"

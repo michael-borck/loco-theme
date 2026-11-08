@@ -1,0 +1,42 @@
+---
+/**
+ * Starlight Footer override shared by every LocoLabo site.
+ * Renders the default footer, then a family strip linking back to the hub.
+ */
+import Default from '@astrojs/starlight/components/Footer.astro';
+---
+
+<Default><slot /></Default>
+
+<nav class="loco-family" aria-label="LocoLabo family">
+  <p>
+    Part of <a href="https://locolabo.org/">LocoLabo</a>, a self-funded lab mapping what AI can
+    do on hardware people already own.
+  </p>
+  <p class="loco-family-links">
+    <a href="https://locolabo.org/projects/">All projects</a>
+    <span aria-hidden="true">·</span>
+    <a href="https://locolabo.org/quests/">Quests</a>
+    <span aria-hidden="true">·</span>
+    <a href="https://locolabo.org/gpu-registry/">GPU registry</a>
+  </p>
+</nav>
+
+<style>
+  .loco-family {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px dashed var(--sl-color-gray-5);
+    font-size: var(--sl-text-sm);
+    color: var(--sl-color-gray-3);
+  }
+  .loco-family p {
+    margin: 0.25rem 0;
+  }
+  .loco-family a {
+    color: var(--sl-color-accent-high);
+  }
+  .loco-family-links span {
+    margin: 0 0.35rem;
+  }
+</style>

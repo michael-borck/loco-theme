@@ -40,7 +40,7 @@
   },
   {
     "id": "loco-bench-picker",
-    "name": "LocoBench Picker",
+    "name": "LocoBanco Picker",
     "url": "https://picker.locobanco.org",
     "tagline": "Plot GPUs by cost, VRAM, bandwidth, power, and benchmark.",
     "category": "Measure",
