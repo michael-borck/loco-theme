@@ -675,6 +675,27 @@
     },
     {
       "group": "Relic shelf",
+      "card": "GeForce GTX 970",
+      "count": 1,
+      "vram_gb": 3.5,
+      "bandwidth_gb_s": 196,
+      "architecture": "Maxwell",
+      "cc": 5.2,
+      "tensor_cores": false,
+      "status": "installed",
+      "device_count": 1,
+      "projects": [
+        "LocoFósil"
+      ],
+      "role": "Maxwell memory-cliff reference point",
+      "source": "https://locofosil.org/hardware/",
+      "max_cuda": "12.9",
+      "last_driver": "580",
+      "memory_label": "3.5 + 0.5 GB",
+      "notes": "3.5 GB fast VRAM + 0.5 GB slow partition; models over 3.5 GB hit a performance cliff"
+    },
+    {
+      "group": "Relic shelf",
       "card": "Quadro M4000",
       "count": 1,
       "vram_gb": 8,
