@@ -750,7 +750,7 @@
       "source": "https://locofosil.org/hardware/",
       "max_cuda": "12.9",
       "last_driver": "580",
-      "notes": "Low profile; a slower DDR4 variant exists — confirm with nvidia-smi"
+      "notes": "Low profile; GDDR5 variant confirmed — the DDR4 variant is much slower"
     },
     {
       "group": "Relic shelf",
